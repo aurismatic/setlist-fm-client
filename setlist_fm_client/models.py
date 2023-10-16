@@ -55,6 +55,7 @@ class Song(SetlistFmBaseModel):
     name: str
     info: typing.Optional[str]
     cover: typing.Optional[Artist]
+    tape: typing.Optional[bool]    
 
 
 class Set(SetlistFmBaseModel):
